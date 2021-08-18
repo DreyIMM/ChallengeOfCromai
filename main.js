@@ -32,7 +32,6 @@ function calculteHipotenusa(){
     pText.innerHTML = `Resolução: A² = ${catetoA}² + ${catetoB}²
     <br> Resultado: A² = ${result}<br>
     <h3>${Math.sqrt(result)} `
-    
 }
 
 
@@ -60,7 +59,7 @@ function calculteOpost(){
         result = result * (-1)
     }
     var pText = document.querySelector(".resolucao")
-    pText.innerHTML = `Resolução: A² = ${catetoA}² + ${catetoB}²
+    pText.innerHTML = `Resolução: A² = ${catetoH}² + ${catetoB}²
     <br> Resultado: A² = ${result}<br>
     <h3>${Math.sqrt(result)} `
     
